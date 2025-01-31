@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COSMOS WORLD page</title>
+   
+  <!--This line links the css with the html file for style commented by viki pawar -->
+  <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+  <h1 title="center">WELCOME TO COSMOS WORLD</h1>
+
+  <!-- Background Video -->
+  <video class="background-video" autoplay muted  loop>
+    <source src="VIDEO/12656_Big_Bang_1080.mov" type="video/mp4">
+
+  </video>
+
+  <!-- Audio File -->
+  <audio id="bigBangAudio" loop>
+    <source src="AUDIO CLIPS/the-big-bang-speech-by-a-robot-57931.mp3" type="audio/mp3">
+
+  </audio>
+
+  <!-- Login Content -->
+  <div class="login-container">
+
+    <div class="login-box">
+
+      <h1>Login</h1>
+
+      <form action="/login" method="post">
+
+        <input type="text" name="username" placeholder="Username" aria-label="Username" required>
+
+        <input type="password" name="password" placeholder="Password" aria-label="Password" required>
+
+        <button type="submit" onclick="playMedia()">
+
+          <a href="#" target="_blank">Login</a></button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
